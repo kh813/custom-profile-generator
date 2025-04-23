@@ -10,7 +10,7 @@ def Make_exe():
     result = ""
     
     # resources folder path
-    resources_dir = os.path.join(os.getcwd(), "resources")
+    resources_dir = os.path.join(os.getcwd(), "icons")
 
     # Windows
     if platform.system() == "Windows":
